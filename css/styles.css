@@ -303,7 +303,7 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
-    /*flex attributes added */
+  /*flex attributes added */
   display: flex;
   justify-content: center;
   align-content: center;
