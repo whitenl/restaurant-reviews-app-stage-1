@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   initMap(); // added 
   fetchNeighborhoods();
   fetchCuisines();
+  registerServiceWorker(); 
 });
 
 /**
@@ -198,6 +199,20 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 
 } 
+
+registerServiceWorker = () => {
+  if('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').then((registration) => {
+        console.log('ServiceWorker registration successful in scope: ', registration.scope);
+      }, (err) => {
+        console.log('ServiceWorker registration failed', err)
+      }
+    )
+    })
+  }
+}
+
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
