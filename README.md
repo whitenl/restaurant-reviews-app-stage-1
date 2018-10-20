@@ -28,4 +28,4 @@ Incrementally converted a static webpage to a mobile-ready web application. Conv
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/) open-source ([Lighthouse GitHub repository](https://github.com/GoogleChrome/lighthouse)), automated tool for improving the quality of web pages. I used it as an index for Accessibility issues.
 * [Normalize.css](https://necolas.github.io/normalize.css/), a modern, HTML5-ready alternative to CSS resets.
 * Favicon created via [favicon.cc](https://www.favicon.cc/?action=edit_image&file_id=711403) 
-* [Service Workers: an Introduction] https://developers.google.com/web/fundamentals/primers/service-workers/
+* [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/)
