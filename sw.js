@@ -7,6 +7,7 @@ var urlsToCache = [
   '/css/styles.css',
   '/data/restaurants.json',
   '/restaurant.html',
+  'img/favicon.ico',
   '/img/1.jpg',
   '/img/2.jpg',
   '/img/3.jpg',
